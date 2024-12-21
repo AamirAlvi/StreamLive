@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EBA0F97A2D16EDE400DF303F /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = EBA0F9792D16EDE400DF303F /* Kingfisher */; };
+		EBB405F82D16CC29001C7D92 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = EBB405F72D16CC29001C7D92 /* Lottie */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EB6523A12D1680D100965E4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB6523822D1680CF00965E4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB6523892D1680CF00965E4E;
+			remoteInfo = LiveStream;
+		};
+		EB6523AB2D1680D100965E4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB6523822D1680CF00965E4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB6523892D1680CF00965E4E;
+			remoteInfo = LiveStream;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EB65238A2D1680CF00965E4E /* LiveStream.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiveStream.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB6523A02D1680D100965E4E /* LiveStreamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LiveStreamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB6523AA2D1680D100965E4E /* LiveStreamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LiveStreamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		EB6523B22D1680D100965E4E /* Exceptions for "LiveStream" folder in "LiveStream" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = EB6523892D1680CF00965E4E /* LiveStream */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		EB65238C2D1680CF00965E4E /* LiveStream */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				EB6523B22D1680D100965E4E /* Exceptions for "LiveStream" folder in "LiveStream" target */,
+			);
+			path = LiveStream;
+			sourceTree = "<group>";
+		};
+		EB6523A32D1680D100965E4E /* LiveStreamTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = LiveStreamTests;
+			sourceTree = "<group>";
+		};
+		EB6523AD2D1680D100965E4E /* LiveStreamUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = LiveStreamUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB6523872D1680CF00965E4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBA0F97A2D16EDE400DF303F /* Kingfisher in Frameworks */,
+				EBB405F82D16CC29001C7D92 /* Lottie in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB65239D2D1680D100965E4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB6523A72D1680D100965E4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB6523812D1680CF00965E4E = {
+			isa = PBXGroup;
+			children = (
+				EB65238C2D1680CF00965E4E /* LiveStream */,
+				EB6523A32D1680D100965E4E /* LiveStreamTests */,
+				EB6523AD2D1680D100965E4E /* LiveStreamUITests */,
+				EB65238B2D1680CF00965E4E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB65238B2D1680CF00965E4E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB65238A2D1680CF00965E4E /* LiveStream.app */,
+				EB6523A02D1680D100965E4E /* LiveStreamTests.xctest */,
+				EB6523AA2D1680D100965E4E /* LiveStreamUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB6523892D1680CF00965E4E /* LiveStream */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB6523B32D1680D100965E4E /* Build configuration list for PBXNativeTarget "LiveStream" */;
+			buildPhases = (
+				EB6523862D1680CF00965E4E /* Sources */,
+				EB6523872D1680CF00965E4E /* Frameworks */,
+				EB6523882D1680CF00965E4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				EB65238C2D1680CF00965E4E /* LiveStream */,
+			);
+			name = LiveStream;
+			packageProductDependencies = (
+				EBB405F72D16CC29001C7D92 /* Lottie */,
+				EBA0F9792D16EDE400DF303F /* Kingfisher */,
+			);
+			productName = LiveStream;
+			productReference = EB65238A2D1680CF00965E4E /* LiveStream.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EB65239F2D1680D100965E4E /* LiveStreamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB6523B82D1680D100965E4E /* Build configuration list for PBXNativeTarget "LiveStreamTests" */;
+			buildPhases = (
+				EB65239C2D1680D100965E4E /* Sources */,
+				EB65239D2D1680D100965E4E /* Frameworks */,
+				EB65239E2D1680D100965E4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB6523A22D1680D100965E4E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				EB6523A32D1680D100965E4E /* LiveStreamTests */,
+			);
+			name = LiveStreamTests;
+			packageProductDependencies = (
+			);
+			productName = LiveStreamTests;
+			productReference = EB6523A02D1680D100965E4E /* LiveStreamTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EB6523A92D1680D100965E4E /* LiveStreamUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB6523BB2D1680D100965E4E /* Build configuration list for PBXNativeTarget "LiveStreamUITests" */;
+			buildPhases = (
+				EB6523A62D1680D100965E4E /* Sources */,
+				EB6523A72D1680D100965E4E /* Frameworks */,
+				EB6523A82D1680D100965E4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB6523AC2D1680D100965E4E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				EB6523AD2D1680D100965E4E /* LiveStreamUITests */,
+			);
+			name = LiveStreamUITests;
+			packageProductDependencies = (
+			);
+			productName = LiveStreamUITests;
+			productReference = EB6523AA2D1680D100965E4E /* LiveStreamUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB6523822D1680CF00965E4E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					EB6523892D1680CF00965E4E = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					EB65239F2D1680D100965E4E = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = EB6523892D1680CF00965E4E;
+					};
+					EB6523A92D1680D100965E4E = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = EB6523892D1680CF00965E4E;
+					};
+				};
+			};
+			buildConfigurationList = EB6523852D1680CF00965E4E /* Build configuration list for PBXProject "LiveStream" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB6523812D1680CF00965E4E;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				EBB405F62D16CC29001C7D92 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+				EBA0F9782D16EDE400DF303F /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = EB65238B2D1680CF00965E4E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB6523892D1680CF00965E4E /* LiveStream */,
+				EB65239F2D1680D100965E4E /* LiveStreamTests */,
+				EB6523A92D1680D100965E4E /* LiveStreamUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB6523882D1680CF00965E4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB65239E2D1680D100965E4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB6523A82D1680D100965E4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB6523862D1680CF00965E4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB65239C2D1680D100965E4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB6523A62D1680D100965E4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EB6523A22D1680D100965E4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB6523892D1680CF00965E4E /* LiveStream */;
+			targetProxy = EB6523A12D1680D100965E4E /* PBXContainerItemProxy */;
+		};
+		EB6523AC2D1680D100965E4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB6523892D1680CF00965E4E /* LiveStream */;
+			targetProxy = EB6523AB2D1680D100965E4E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EB6523B42D1680D100965E4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FAQB6C6S58;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LiveStream/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aamir.LiveStream;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EB6523B52D1680D100965E4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FAQB6C6S58;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LiveStream/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aamir.LiveStream;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EB6523B62D1680D100965E4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EB6523B72D1680D100965E4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB6523B92D1680D100965E4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aamir.LiveStreamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LiveStream.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LiveStream";
+			};
+			name = Debug;
+		};
+		EB6523BA2D1680D100965E4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aamir.LiveStreamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LiveStream.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LiveStream";
+			};
+			name = Release;
+		};
+		EB6523BC2D1680D100965E4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aamir.LiveStreamUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LiveStream;
+			};
+			name = Debug;
+		};
+		EB6523BD2D1680D100965E4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aamir.LiveStreamUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LiveStream;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB6523852D1680CF00965E4E /* Build configuration list for PBXProject "LiveStream" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB6523B62D1680D100965E4E /* Debug */,
+				EB6523B72D1680D100965E4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB6523B32D1680D100965E4E /* Build configuration list for PBXNativeTarget "LiveStream" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB6523B42D1680D100965E4E /* Debug */,
+				EB6523B52D1680D100965E4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB6523B82D1680D100965E4E /* Build configuration list for PBXNativeTarget "LiveStreamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB6523B92D1680D100965E4E /* Debug */,
+				EB6523BA2D1680D100965E4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB6523BB2D1680D100965E4E /* Build configuration list for PBXNativeTarget "LiveStreamUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB6523BC2D1680D100965E4E /* Debug */,
+				EB6523BD2D1680D100965E4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EBA0F9782D16EDE400DF303F /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+		EBB405F62D16CC29001C7D92 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EBA0F9792D16EDE400DF303F /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EBA0F9782D16EDE400DF303F /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		EBB405F72D16CC29001C7D92 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EBB405F62D16CC29001C7D92 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = EB6523822D1680CF00965E4E /* Project object */;
+}
