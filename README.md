@@ -74,8 +74,7 @@ The mock comment data includes `username`, `picURL`, and `comment` fields to sim
 5. Single-tap the video to pause/resume playback.
 
 ## Demo Video
-Video Link: https://drive.google.com/file/d/1o8XeR9YADEsiQrXlmfr9Ngyi3paCs4-
-i/view?usp=share_link
+Video Link: https://drive.google.com/file/d/1o8XeR9YADEsiQrXlmfr9Ngyi3paCs4-i/view?usp=share_link
 
 ## Future Improvements
 - Integrate real API calls for dynamic data.
