@@ -1,5 +1,8 @@
 # Live Stream Playback and Commenting UI
 
+## Working Code Video
+Video Link: https://drive.google.com/file/d/1o8XeR9YADEsiQrXlmfr9Ngyi3paCs4-i/view?usp=share_link
+
 ## Overview
 This project is a pixel-perfect implementation of a "live" stream playback and commenting UI, similar to TikTok live streaming. It features smooth animations, dynamic content display, and user interaction capabilities.
 
@@ -72,9 +75,6 @@ The mock comment data includes `username`, `picURL`, and `comment` fields to sim
 3. Tap the comment text field to add a new comment.
 4. Double-tap the video to trigger the heart animation.
 5. Single-tap the video to pause/resume playback.
-
-## Demo Video
-Video Link: https://drive.google.com/file/d/1o8XeR9YADEsiQrXlmfr9Ngyi3paCs4-i/view?usp=share_link
 
 ## Future Improvements
 - Integrate real API calls for dynamic data.
